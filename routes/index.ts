@@ -1,8 +1,8 @@
-import {get_license_score} from './license_score_calc/license';
-import {get_urls, URL_PARSE} from './url_parser';
-import {create_logger} from './logging_setup';
-import {get_bus_factor_score} from './bus_factor/bus_factor';
-import {get_responsiveness_score} from './responsiveness_factor/responsiveness';
+import {get_license_score} from '../controllers/MetricCalculator/license_score_calc/license';
+import {get_urls, URL_PARSE} from '../controllers/MetricCalculator/url_parser';
+import {create_logger} from '../controllers/MetricCalculator/logging_setup';
+import {get_bus_factor_score} from '../controllers/MetricCalculator/bus_factor/bus_factor';
+import {get_responsiveness_score} from '../controllers/MetricCalculator/responsiveness_factor/responsiveness';
 
 const arrayToNdjson = require('array-to-ndjson');
 
